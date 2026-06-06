@@ -25,8 +25,7 @@ services:
     restart: always
     volumes:
       - redis-data:/data
-    networks:
-      - inbox-zero-network
+
 
   serverless-redis-http:
     image: hiett/serverless-redis-http:latest
